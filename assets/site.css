@@ -140,30 +140,41 @@ h1 { font-size: 30px; margin: 0 0 12px; }
 /* 記事の部品（書き方は docs/書き方の決まり.md）。見出しのことばはビルドが入れる */
 .post-body .box { border-radius: 14px; padding: 18px 22px; margin: 0 0 1.9em; }
 .post-body .box > *:last-child { margin-bottom: 0; }
-.post-body .box-label { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 14.5px; letter-spacing: .08em; margin: 0 0 8px; line-height: 1.6; }
-.post-body .box-label::before { content: ""; flex: none; width: 20px; height: 20px; background: currentColor; -webkit-mask: var(--icon) center / contain no-repeat; mask: var(--icon) center / contain no-repeat; }
+.post-body .box-label { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; letter-spacing: .08em; margin: 0 0 10px; line-height: 1.6; }
+.post-body .box-label::before { content: ""; flex: none; width: 38px; height: 38px; border-radius: 50%; background: var(--icon) center / 80% no-repeat, #f4efe4; }
 .post-body .summary { background: var(--surface); border: 2px solid var(--moss); }
-.post-body .summary .box-label { color: var(--moss-deep); --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 21V4M6 5h11l-2.5 4L17 13H6'/%3E%3C/svg%3E"); }
+.post-body .summary .box-label { color: var(--moss-deep); --icon: url("/img/art/icons/summary.png"); }
 .post-body .summary ul, .post-body .check ul, .post-body .matome ul { list-style: none; padding-left: 0; margin: 0; }
 .post-body .summary li, .post-body .check li, .post-body .matome li { position: relative; padding-left: 1.7em; margin: .45em 0; }
 .post-body .summary li::before, .post-body .matome li::before { content: ""; position: absolute; left: 0; top: .5em; width: 1.05em; height: 1.05em; background: var(--moss); -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center / contain no-repeat; }
 .post-body .point { background: var(--sun-soft); border-left: 6px solid var(--sun); border-radius: 0 14px 14px 0; }
-.post-body .point .box-label { color: var(--sun); --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='10' r='6'/%3E%3Cpath d='M10 16v2h4v-2M10.5 21h3'/%3E%3C/svg%3E"); }
+.post-body .point .box-label { color: var(--sun); --icon: url("/img/art/icons/point.png"); }
 .post-body .keiken { background: var(--paper-2); border: 1px solid var(--line); }
-.post-body .keiken .box-label { color: var(--ink-2); --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 20l1-4L16 5l3 3L8 19z'/%3E%3Cpath d='M14 7l3 3'/%3E%3C/svg%3E"); }
+.post-body .keiken .box-label { color: var(--ink-2); --icon: url("/img/art/icons/keiken.png"); }
 .post-body .today, .post-body .note { background: var(--moss-soft); border-radius: 14px; }
 .post-body .note { padding: 16px 20px; margin: 0 0 1.9em; }
 .post-body .note p:last-child { margin-bottom: 0; }
-.post-body .today .box-label { color: var(--moss-deep); --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='6' width='16' height='14' rx='2'/%3E%3Cpath d='M8 4v4M16 4v4M4 11h16'/%3E%3C/svg%3E"); }
+.post-body .today .box-label { color: var(--moss-deep); --icon: url("/img/art/icons/today.png"); }
 .post-body .check { background: var(--surface); border: 1px solid var(--line); }
-.post-body .check .box-label { color: var(--moss-deep); --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='4' width='16' height='16' rx='3'/%3E%3Cpath d='M8 12.5l3 3 5-6'/%3E%3C/svg%3E"); }
+.post-body .check .box-label { color: var(--moss-deep); --icon: url("/img/art/icons/check.png"); }
 .post-body .check li::before { content: ""; position: absolute; left: 0; top: .5em; width: 1.05em; height: 1.05em; background: var(--ink-3); -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='4' width='16' height='16' rx='3'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='4' width='16' height='16' rx='3'/%3E%3C/svg%3E") center / contain no-repeat; }
 .post-body .matome { background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--moss); }
-.post-body .matome .box-label { color: var(--moss-deep); --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E"); }
+.post-body .matome .box-label { color: var(--moss-deep); --icon: url("/img/art/icons/matome.png"); }
 .post-body .dl { background: var(--surface); border: 1px dashed var(--moss); border-radius: 14px; padding: 16px 20px; margin: 0 0 1.9em; }
 .post-body .konkyo { font-size: 13.5px; line-height: 1.8; color: var(--ink-3); margin: -0.7em 0 2em; letter-spacing: 0; }
 .post-body .konkyo p { margin: 0; }
+.post-body .konkyo-label::before { content: ""; display: inline-block; width: 18px; height: 18px; margin-right: 4px; vertical-align: -4px; border-radius: 50%; background: url("/img/art/icons/konkyo.png") center / 80% no-repeat, #f4efe4; }
 .post-body .konkyo-label { display: inline-block; font-size: 12px; font-weight: 700; color: var(--moss-deep); background: var(--moss-soft); border-radius: 5px; padding: 0 8px; margin-right: 8px; letter-spacing: .12em; }
+
+/* 折りたたみ（先生向けの長い話など。<details class="fold" markdown="1"><summary>…</summary>…</details>） */
+.post-body .fold { background: var(--paper-2); border: 1px dashed var(--ink-3); border-radius: 14px; padding: 0 22px; margin: -0.6em 0 1.9em; }
+.post-body .fold summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px; padding: 14px 0; font-weight: 700; font-size: 15.5px; line-height: 1.6; letter-spacing: .04em; color: var(--ink-2); }
+.post-body .fold summary::-webkit-details-marker { display: none; }
+.post-body .fold summary::before { content: ""; flex: none; width: 9px; height: 9px; margin-left: 4px; border-right: 2.2px solid var(--moss); border-bottom: 2.2px solid var(--moss); transform: rotate(-45deg); transition: transform .15s; }
+.post-body .fold[open] summary::before { transform: rotate(45deg); }
+.post-body .fold[open] summary { border-bottom: 1px solid var(--line); margin-bottom: 18px; }
+.post-body .fold p, .post-body .fold li { font-size: 17px; }
+.post-body .fold > *:last-child { margin-bottom: 0; padding-bottom: 20px; }
 
 /* 学びの場のカード、例の比べ方 */
 .post-body .places, .post-body .compare { display: grid; gap: 14px; grid-template-columns: 1fr; margin: 0 0 1.9em; }

@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://karasunosu.jp/</loc><lastmod>2026-11-13</lastmod></url>
-<url><loc>https://karasunosu.jp/posts/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://karasunosu.jp/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://karasunosu.jp/posts/</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://karasunosu.jp/category/shugaku/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://karasunosu.jp/category/gakko/</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://karasunosu.jp/category/seido/</loc><lastmod>2026-11-12</lastmod></url>
+<url><loc>https://karasunosu.jp/posts/shienkyu-keiken-management/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://karasunosu.jp/posts/jihei-jocho-gakkyu-isshukan/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://karasunosu.jp/posts/hajimete-shienkyu-tannin/</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://karasunosu.jp/posts/shienkyu-kara-tsujo-e/</loc><lastmod>2026-11-13</lastmod></url>
 <url><loc>https://karasunosu.jp/posts/manabi-no-ba-henkou/</loc><lastmod>2026-11-13</lastmod></url>
 <url><loc>https://karasunosu.jp/posts/shugaku-sodan/</loc><lastmod>2026-11-12</lastmod></url>
 <url><loc>https://karasunosu.jp/posts/manabi-no-ba/</loc><lastmod>2026-11-12</lastmod></url>
-<url><loc>https://karasunosu.jp/about/</loc><lastmod>2026-11-13</lastmod></url>
-<url><loc>https://karasunosu.jp/ads/</loc><lastmod>2026-11-13</lastmod></url>
-<url><loc>https://karasunosu.jp/contact/</loc><lastmod>2026-11-13</lastmod></url>
-<url><loc>https://karasunosu.jp/privacy/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://karasunosu.jp/about/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://karasunosu.jp/ads/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://karasunosu.jp/contact/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://karasunosu.jp/privacy/</loc><lastmod>2026-11-16</lastmod></url>
 </urlset>
