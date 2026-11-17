@@ -231,3 +231,20 @@ h1 { font-size: 30px; margin: 0 0 12px; }
 .foot-links a { color: var(--ink-2); }
 .foot-note { margin: 0 0 8px; max-width: var(--measure); }
 .copy { margin: 0; color: var(--ink-3); }
+
+/* 連載（入口ページと、記事の上下の案内。設定は site.config.json の series） */
+.series-nav { margin: -14px 0 26px; font-size: 14px; }
+.series-nav a { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: var(--ink-2); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 5px 14px 5px 6px; }
+.series-nav a:hover { border-color: var(--moss); color: var(--moss-deep); }
+.series-tag { font-size: 12px; font-weight: 700; color: #fff; background: var(--moss); border-radius: 999px; padding: 1px 9px; letter-spacing: .08em; }
+.series-count { color: var(--ink-3); }
+.series-next { margin-top: 40px; background: var(--moss-soft); border-radius: 14px; padding: 18px 22px; font-size: 16px; line-height: 1.8; }
+.series-next p { margin: 0 0 6px; }
+.series-next p:last-child { margin-bottom: 0; }
+.series-next-label { font-weight: 700; font-size: 14px; letter-spacing: .08em; color: var(--moss-deep); }
+.series-next-hub { font-size: 14.5px; }
+.series-callouts { margin-top: 22px; max-width: var(--measure); }
+.series-callout { display: grid; gap: 6px; background: var(--surface); border: 1px solid var(--line); border-left: 6px solid var(--moss); border-radius: 0 14px 14px 0; padding: 14px 18px; text-decoration: none; color: var(--ink); }
+.series-callout:hover { border-color: var(--moss); }
+.series-callout-title { font-weight: 700; font-size: 17px; line-height: 1.5; }
+.series-callout-more { font-size: 14px; color: var(--moss-deep); }
