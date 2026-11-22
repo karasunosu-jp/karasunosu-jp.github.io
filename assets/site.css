@@ -248,3 +248,21 @@ h1 { font-size: 30px; margin: 0 0 12px; }
 .series-callout:hover { border-color: var(--moss); }
 .series-callout-title { font-weight: 700; font-size: 17px; line-height: 1.5; }
 .series-callout-more { font-size: 14px; color: var(--moss-deep); }
+
+/* ---------- 読者の印と入口（ご家庭向け・先生向け。2026-11-22） ---------- */
+:root { --sun-deep: #8A4F12; }
+@media (prefers-color-scheme: dark) { :root { --sun-deep: #F0C08A; } }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.chip-katei { color: var(--moss-deep); background: var(--moss-soft); font-weight: 700; }
+.chip-sensei { color: var(--sun-deep); background: var(--sun-soft); font-weight: 700; }
+.chip-cat { color: var(--ink-2); background: var(--paper-2); }
+.post-chips { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin: 0 0 12px; }
+.post-chips a { text-decoration: none; }
+.post-chips .reader-other { font-size: 13.5px; color: var(--ink-3); text-decoration: underline; text-underline-offset: 3px; }
+.entrances { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 22px; max-width: var(--measure); }
+@media (max-width: 420px) { .entrances { grid-template-columns: 1fr; } }
+.entrance { display: grid; gap: 6px; align-content: start; background: var(--surface); border: 1px solid var(--line); border-left: 6px solid var(--moss); border-radius: 0 14px 14px 0; padding: 14px 18px; text-decoration: none; color: var(--ink); }
+.entrance-sensei { border-left-color: var(--sun); }
+.entrance:hover { border-top-color: var(--moss); border-right-color: var(--moss); border-bottom-color: var(--moss); }
+.entrance-title { font-weight: 700; font-size: 18px; line-height: 1.5; }
+.entrance-lead { font-size: 14px; color: var(--ink-2); line-height: 1.7; }
